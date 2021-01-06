@@ -183,7 +183,7 @@ public class MainActivity2 extends AppCompatActivity {
                 floatingPoint = false;
                 Parentheses = 0;
                 isPaused = true;
-                buttonWhatsapp.setText("xⁿ");
+                buttonWhatsapp.setText("►");
                 buttonSin.setText("sin");
                 send = 0;
                 wpsend = 0;
@@ -216,6 +216,20 @@ public class MainActivity2 extends AppCompatActivity {
                     buttonTo.setText("Bin");
                     To=2;
                 }
+                Running = false;
+                seconds = 0;
+                InputText.setText("");
+                Equation = "";
+                OutputText.setText("");
+                floatingPoint = false;
+                Parentheses = 0;
+                isPaused = true;
+                buttonWhatsapp.setText("►");
+                buttonSin.setText("sin");
+                send = 0;
+                wpsend = 0;
+                buttonStopwatch.setText("►");
+                buttonMod.setText("tan");
 
             }
         });
@@ -299,7 +313,7 @@ public class MainActivity2 extends AppCompatActivity {
                 if ( wpsend > 1) {
                     wpsend = 0;
                     sendWP(InputText.getText() + "", OutputText.getText() + "");
-                    buttonWhatsapp.setText("xⁿ");
+                    buttonWhatsapp.setText("►");
                     OutputText.setEnabled(false);
                     OutputText.setFocusable(false);
                     OutputText.setFocusableInTouchMode(false);
@@ -687,7 +701,7 @@ public class MainActivity2 extends AppCompatActivity {
                 floatingPoint = false;
                 Parentheses = 0;
                 isPaused = true;
-                buttonWhatsapp.setText("xⁿ");
+                buttonWhatsapp.setText("►");
                 buttonSin.setText("sin");
                 send = 0;
                 wpsend = 0;
