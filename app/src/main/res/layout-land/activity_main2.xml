@@ -74,16 +74,16 @@
         <Button
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
-            android:id="@+id/buttonpow"
+            android:id="@+id/buttonfact"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="√"
+            android:text="!"
             android:background="@drawable/background_btn1"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="25dp" />
         <Button
-            android:id="@+id/buttonalarm"
+            android:id="@+id/buttonmod"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -183,8 +183,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:id="@+id/buttonwp"
-
+            android:id="@+id/buttonpow"
             android:text="xⁿ"
             android:background="@drawable/background_btn3"
             android:textAllCaps="false"
@@ -192,7 +191,6 @@
             android:textSize="25dp" />
 
         <Button
-
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -422,7 +420,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="tan"
-                    android:id="@+id/buttonmod"
+                    android:id="@+id/buttontan"
                     android:textAllCaps="false"
                     android:background="@drawable/background_btn1"
                     android:textColor="@color/WhiteText"
@@ -454,6 +452,27 @@
                 android:background="@drawable/background_btn1"
                 android:textColor="@color/WhiteText"
                 android:textSize="35dp" />
+            <Button
+                android:id="@+id/buttonfrom"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                />
+            <Button
+                android:id="@+id/buttonto"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                />
+            <Button
+                android:id="@+id/buttonroot"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                />
+            <Button
+                android:id="@+id/buttonwp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                />
+
 
         </LinearLayout>
 

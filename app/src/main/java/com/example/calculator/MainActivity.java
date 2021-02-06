@@ -32,8 +32,6 @@ import java.util.Vector;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getSupportActionBar().hide();
@@ -48,12 +46,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }, 1000);
-
-
-
-
-
     }
-
-
 }

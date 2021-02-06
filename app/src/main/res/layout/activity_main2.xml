@@ -37,6 +37,7 @@
         android:text=""
         android:textColor="#969696"
         android:textSize="32sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -50,11 +51,12 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textAllCaps="false"
             android:background="@drawable/background_btn1"
             android:text="Dec"
+            android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="25dp" />
+
         <Button
             android:id="@+id/buttonsw"
             style="@style/Widget.AppCompat.Button.Borderless"
@@ -67,8 +69,6 @@
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="30sp" />
-
-
 
 
         <Button
@@ -85,12 +85,12 @@
 
 
         <Button
+            android:id="@+id/buttonwp"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/background_btn3"
-            android:id="@+id/buttonwp"
             android:text="►"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
@@ -145,7 +145,7 @@
 
 
         <Button
-            android:id="@+id/buttonmod"
+            android:id="@+id/buttontan"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -155,17 +155,19 @@
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="25dp" />
+
         <Button
-            android:id="@+id/buttonconvert"
+            android:id="@+id/buttonlog"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
-            android:text="→"
+            android:text="log"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="25dp" />
+
         <Button
 
             android:id="@+id/buttondown"
@@ -178,11 +180,6 @@
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="30sp" />
-
-
-
-
-
 
 
     </LinearLayout>
@@ -218,18 +215,19 @@
             android:textSize="32sp" />
 
         <Button
+            android:id="@+id/buttonfact"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
-            android:text="√"
+            android:text="!"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/buttonalarm"
+            android:id="@+id/buttonmod"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -294,6 +292,7 @@
             android:text="9"
             android:textColor="@color/WhiteText"
             android:textSize="32sp" />
+
         <Button
             android:id="@+id/buttondiv"
             style="@style/Widget.AppCompat.Button.Borderless"
@@ -304,9 +303,10 @@
             android:text="÷"
             android:textColor="@color/WhiteText"
             android:textSize="40dp" />
+
         <Button
-            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/buttonpow"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -315,10 +315,6 @@
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="30sp" />
-
-
-
-
 
 
     </LinearLayout>
@@ -362,6 +358,7 @@
             android:text="6"
             android:textColor="@color/WhiteText"
             android:textSize="32sp" />
+
         <Button
             android:id="@+id/buttonmul"
             style="@style/Widget.AppCompat.Button.Borderless"
@@ -375,9 +372,6 @@
             android:textSize="35sp" />
 
 
-
-
-
         <Button
             android:id="@+id/buttonres"
             style="@style/Widget.AppCompat.Button.Borderless"
@@ -388,7 +382,6 @@
             android:text="AC"
             android:textColor="@color/WhiteText"
             android:textSize="28dp" />
-
 
     </LinearLayout>
 
@@ -506,6 +499,7 @@
                     android:text="⌫"
                     android:textColor="@color/WhiteText"
                     android:textSize="32sp" />
+
                 <Button
                     android:id="@+id/buttonadd"
                     style="@style/Widget.AppCompat.Button.Borderless"
@@ -516,8 +510,6 @@
                     android:text="+"
                     android:textColor="@color/WhiteText"
                     android:textSize="32sp" />
-
-
 
 
             </LinearLayout>
@@ -541,6 +533,8 @@
                 android:text="="
                 android:textColor="@color/WhiteText"
                 android:textSize="32dp" />
+
+
 
         </LinearLayout>
 
