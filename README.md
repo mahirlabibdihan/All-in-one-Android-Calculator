@@ -11,3 +11,12 @@
 
 # Stop Watch
 <img src="StopWatch.jpg" alt="Diculator" width="300"/>
+
+# Whatsapp
+<img src="Whatsapp.jpg" alt="Diculator" width="300"/>
+
+# Timer
+<img src="Timer.jpg" alt="Diculator" width="300"/>
+
+# Counter
+<img src="Counter.jpg" alt="Diculator" width="300"/>
