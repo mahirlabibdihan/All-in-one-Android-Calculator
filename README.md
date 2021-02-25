@@ -20,3 +20,6 @@
 
 # Counter
 <img src="Counter.jpg" alt="Diculator" width="300"/>
+
+# Alarm
+<img src="Alarm.jpg" alt="Diculator" width="300"/>
