@@ -1,4 +1,4 @@
-package com.example.calculator;
+package com.dihu.diculator;
 
 import org.junit.Test;
 

@@ -7,7 +7,7 @@
     android:background="#000"
     android:orientation="vertical"
     android:weightSum="9"
-    tools:context=".MainActivity2">
+    tools:context=".Main">
 
     <TextView
         android:id="@+id/edt1"

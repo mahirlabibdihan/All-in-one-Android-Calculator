@@ -33,7 +33,6 @@
         android:layout_width="302dp"
         android:layout_height="288dp"
         android:layout_marginTop="16dp"
-
         android:contentDescription="TODO"
         android:foreground="@drawable/image"
         app:layout_constraintBottom_toBottomOf="parent"

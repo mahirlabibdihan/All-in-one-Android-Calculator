@@ -7,7 +7,7 @@
     android:background="#000"
     android:orientation="vertical"
     android:weightSum="10"
-    tools:context=".MainActivity2">
+    tools:context=".Main">
 
     <TextView
         android:id="@+id/edt1"
@@ -53,6 +53,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="Dec"
+            android:onClick="from"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="25dp" />
@@ -64,11 +65,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
-
+            android:onClick="stopWatch"
             android:text="►"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
-            android:textSize="30sp" />
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="10dp"
+            android:autoSizeMaxTextSize="30dp"/>
 
 
         <Button
@@ -79,6 +82,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="Dec"
+            android:onClick="to"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="25dp" />
@@ -92,6 +96,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn3"
             android:text="►"
+            android:onClick="whatsApp"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="30sp" />
@@ -104,6 +109,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="▲"
+            android:onClick="up"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="30sp" />
@@ -127,6 +133,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="cos"
+            android:onClick="cos"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="25dp" />
@@ -139,6 +146,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="sin"
+            android:onClick="sin"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="25dp" />
@@ -152,6 +160,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="tan"
+            android:onClick="tan"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="25dp" />
@@ -177,6 +186,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="▼"
+            android:onClick="down"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="30sp" />
@@ -199,6 +209,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="("
+            android:onClick="openParentheses"
             android:textColor="@color/WhiteText"
             android:textSize="32sp" />
 
@@ -211,6 +222,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text=")"
+            android:onClick="closeParentheses"
             android:textColor="@color/WhiteText"
             android:textSize="32sp" />
 
@@ -222,6 +234,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="!"
+            android:onClick="factorial"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="30sp" />
@@ -234,6 +247,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="%"
+            android:onClick="mod"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="30sp" />
@@ -268,6 +282,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn2"
             android:text="7"
+            android:onClick="addDigit"
             android:textColor="@color/WhiteText"
             android:textSize="32sp" />
 
@@ -279,6 +294,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn2"
             android:text="8"
+            android:onClick="addDigit"
             android:textColor="@color/WhiteText"
             android:textSize="32sp" />
 
@@ -290,6 +306,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn2"
             android:text="9"
+            android:onClick="addDigit"
             android:textColor="@color/WhiteText"
             android:textSize="32sp" />
 
@@ -301,6 +318,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="÷"
+            android:onClick="div"
             android:textColor="@color/WhiteText"
             android:textSize="40dp" />
 
@@ -312,6 +330,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="xⁿ"
+            android:onClick="power"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="30sp" />
@@ -334,6 +353,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn2"
             android:text="4"
+            android:onClick="addDigit"
             android:textColor="@color/WhiteText"
             android:textSize="32sp" />
 
@@ -345,6 +365,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn2"
             android:text="5"
+            android:onClick="addDigit"
             android:textColor="@color/WhiteText"
             android:textSize="32sp" />
 
@@ -356,6 +377,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn2"
             android:text="6"
+            android:onClick="addDigit"
             android:textColor="@color/WhiteText"
             android:textSize="32sp" />
 
@@ -367,6 +389,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="×"
+            android:onClick="mul"
             android:textAllCaps="false"
             android:textColor="@color/WhiteText"
             android:textSize="35sp" />
@@ -380,6 +403,7 @@
             android:layout_weight="1"
             android:background="@drawable/background_btn1"
             android:text="AC"
+            android:onClick="reset"
             android:textColor="@color/WhiteText"
             android:textSize="28dp" />
 
@@ -414,6 +438,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/background_btn2"
                     android:text="1"
+                    android:onClick="addDigit"
                     android:textColor="@color/WhiteText"
                     android:textSize="32sp" />
 
@@ -425,6 +450,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/background_btn2"
                     android:text="2"
+                    android:onClick="addDigit"
                     android:textColor="@color/WhiteText"
                     android:textSize="32sp" />
 
@@ -436,6 +462,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/background_btn2"
                     android:text="3"
+                    android:onClick="addDigit"
                     android:textColor="@color/WhiteText"
                     android:textSize="32sp" />
 
@@ -447,6 +474,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/background_btn1"
                     android:text="-"
+                    android:onClick="sub"
                     android:textColor="@color/WhiteText"
                     android:textSize="35sp" />
 
@@ -475,6 +503,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/background_btn1"
                     android:text="."
+                    android:onClick="addPoint"
                     android:textColor="@color/WhiteText"
                     android:textSize="32sp" />
 
@@ -486,6 +515,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/background_btn2"
                     android:text="0"
+                    android:onClick="addDigit"
                     android:textColor="@color/WhiteText"
                     android:textSize="32sp" />
 
@@ -497,6 +527,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/background_btn1"
                     android:text="⌫"
+                    android:onClick="delete"
                     android:textColor="@color/WhiteText"
                     android:textSize="32sp" />
 
@@ -508,6 +539,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/background_btn1"
                     android:text="+"
+                    android:onClick="add"
                     android:textColor="@color/WhiteText"
                     android:textSize="32sp" />
 
@@ -530,6 +562,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="@drawable/background_btn1"
+                android:onClick="equal"
                 android:text="="
                 android:textColor="@color/WhiteText"
                 android:textSize="32dp" />
